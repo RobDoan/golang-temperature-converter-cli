@@ -14,8 +14,8 @@ var shouldConvertAgain string
 
 var err error
 
-var errInvalidArguments = errors.New("invalid arguments")
-var errReadingInput = errors.New("error reading input")
+var errInvalidArguments = errors.New("Invalid arguments")
+var errReadingInput = errors.New("Error reading input")
 
 func main() {
 	if len(os.Args) != 2 {
